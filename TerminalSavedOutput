@@ -1,0 +1,3195 @@
+Last login: Mon Apr 25 14:15:10 on ttys000
+/Users/Safiya/.zshrc:87: unmatched "
+
+Warning: PATH set to RVM ruby but GEM_HOME and/or GEM_PATH not set, see:
+    https://github.com/wayneeseguin/rvm/issues/3212
+
+➜  ~ cd /Users/Safiya/Desktop/ToDoList 
+➜  ToDoList git:(master) ✗ gradle test
+:compileJava
+:processResources
+:classes
+:compileTestJava
+:processTestResources UP-TO-DATE
+:testClasses
+:test
+
+BUILD SUCCESSFUL
+
+Total time: 11.376 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.11/userguide/gradle_daemon.html
+➜  ToDoList git:(master) ✗ gradle test
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:compileTestJava
+:processTestResources UP-TO-DATE
+:testClasses
+:test
+
+BUILD SUCCESSFUL
+
+Total time: 11.279 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.11/userguide/gradle_daemon.html
+➜  ToDoList git:(master) ✗ gradle test
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:compileTestJava
+:processTestResources UP-TO-DATE
+:testClasses
+:test
+
+AppTest > rootTest FAILED
+    java.lang.AssertionError at AppTest.java:23
+
+7 tests completed, 1 failed
+:test FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':test'.
+> There were failing tests. See the report at: file:///Users/Safiya/Desktop/ToDoList/build/reports/tests/index.html
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 10.284 secs
+➜  ToDoList git:(master) ✗ gradle test
+:compileJava UP-TO-DATE
+:processResources
+:classes
+:compileTestJava
+:processTestResources UP-TO-DATE
+:testClasses
+:test
+
+AppTest > rootTest FAILED
+    java.lang.AssertionError at AppTest.java:23
+
+7 tests completed, 1 failed
+:test FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':test'.
+> There were failing tests. See the report at: file:///Users/Safiya/Desktop/ToDoList/build/reports/tests/index.html
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 13.792 secs
+➜  ToDoList git:(master) ✗ gradle test
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava UP-TO-DATE
+:processTestResources UP-TO-DATE
+:testClasses UP-TO-DATE
+:test
+
+AppTest > rootTest FAILED
+    java.lang.AssertionError at AppTest.java:23
+
+7 tests completed, 1 failed
+:test FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':test'.
+> There were failing tests. See the report at: file:///Users/Safiya/Desktop/ToDoList/build/reports/tests/index.html
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 8.907 secs
+➜  ToDoList git:(master) ✗ cd /Users/Safiya/Desktop/ToDoList 
+➜  ToDoList git:(master) ✗ gradle test                       
+:compileJava UP-TO-DATE
+:processResources
+:classes
+:compileTestJava
+:processTestResources UP-TO-DATE
+:testClasses
+:test
+
+BUILD SUCCESSFUL
+
+Total time: 10.611 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.11/userguide/gradle_daemon.html
+➜  ToDoList git:(master) ✗ gradle test
+:compileJava
+:processResources
+:classes
+:compileTestJava
+/Users/Safiya/Desktop/ToDoList/src/test/java/AppTest.java:31: error: cannot find symbol
+      click("a", withText("Go Back"));
+                 ^
+  symbol:   method withText(String)
+  location: class AppTest
+1 error
+:compileTestJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 8.886 secs
+➜  ToDoList git:(master) ✗ gradle test
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava
+:processTestResources UP-TO-DATE
+:testClasses
+:test
+
+AppTest > taskIsDisplayedTest FAILED
+    java.lang.AssertionError at AppTest.java:32
+
+8 tests completed, 1 failed
+:test FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':test'.
+> There were failing tests. See the report at: file:///Users/Safiya/Desktop/ToDoList/build/reports/tests/index.html
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 13.412 secs
+➜  ToDoList git:(master) ✗ gradle test
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:compileTestJava
+:processTestResources UP-TO-DATE
+:testClasses
+:test
+
+AppTest > taskIsDisplayedTest FAILED
+    java.lang.AssertionError at AppTest.java:32
+
+8 tests completed, 1 failed
+:test FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':test'.
+> There were failing tests. See the report at: file:///Users/Safiya/Desktop/ToDoList/build/reports/tests/index.html
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 11.364 secs
+➜  ToDoList git:(master) ✗ gradle test
+:compileJava UP-TO-DATE
+:processResources
+:classes
+:compileTestJava
+:processTestResources UP-TO-DATE
+:testClasses
+:test
+
+BUILD SUCCESSFUL
+
+Total time: 11.491 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.11/userguide/gradle_daemon.html
+➜  ToDoList git:(master) ✗ gradle test
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava UP-TO-DATE
+:processTestResources UP-TO-DATE
+:testClasses UP-TO-DATE
+:test UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 5.734 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.11/userguide/gradle_daemon.html
+➜  ToDoList git:(master) ✗ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	../.DS_Store
+	../.localized
+	../.sass-cache/
+	../Doe.zip
+	../DoeSite/
+	../Java---Vowels-Game/
+	../Java-Leetspeak/
+	../JavaPractice/
+	../Left.pdf
+	../Screen Shot 2016-04-25 at 3.22.24 PM.png
+	./
+	../VowelsGame copy/
+	../bolt 2/
+	../bolt/
+	../doe/
+	../java-codereview1/
+	../java-rectangles/
+	../java-template-master.zip
+
+nothing added to commit but untracked files present (use "git add" to track)
+➜  ToDoList git:(master) ✗ git add .
+➜  ToDoList git:(master) ✗ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   .gradle/2.11/taskArtifacts/cache.properties
+	new file:   .gradle/2.11/taskArtifacts/cache.properties.lock
+	new file:   .gradle/2.11/taskArtifacts/fileHashes.bin
+	new file:   .gradle/2.11/taskArtifacts/fileSnapshots.bin
+	new file:   .gradle/2.11/taskArtifacts/outputFileStates.bin
+	new file:   .gradle/2.11/taskArtifacts/taskArtifacts.bin
+	new file:   .gradle/2.9/taskArtifacts/cache.properties
+	new file:   .gradle/2.9/taskArtifacts/cache.properties.lock
+	new file:   .gradle/2.9/taskArtifacts/fileHashes.bin
+	new file:   .gradle/2.9/taskArtifacts/fileSnapshots.bin
+	new file:   .gradle/2.9/taskArtifacts/outputFileStates.bin
+	new file:   .gradle/2.9/taskArtifacts/taskArtifacts.bin
+	new file:   build.gradle
+	new file:   build/classes/main/App.class
+	new file:   build/classes/main/LeapYear.class
+	new file:   build/classes/main/Task.class
+	new file:   build/classes/main/spark/template/velocity/VelocityTemplateEngine.class
+	new file:   build/classes/test/AppTest.class
+	new file:   build/classes/test/LeapYearTest.class
+	new file:   build/classes/test/ServerRule.class
+	new file:   build/classes/test/TaskTest.class
+	new file:   build/reports/tests/classes/AppTest.html
+	new file:   build/reports/tests/classes/LeapYearTest.html
+	new file:   build/reports/tests/classes/TaskTest.html
+	new file:   build/reports/tests/css/base-style.css
+	new file:   build/reports/tests/css/style.css
+	new file:   build/reports/tests/index.html
+	new file:   build/reports/tests/js/report.js
+	new file:   build/reports/tests/packages/default-package.html
+	new file:   build/resources/main/public/app.css
+	new file:   build/resources/main/public/skeleton.css
+	new file:   build/resources/main/templates/detector.vtl
+	new file:   build/resources/main/templates/index.vtl
+	new file:   build/resources/main/templates/layout.vtl
+	new file:   build/resources/main/templates/success.vtl
+	new file:   build/test-results/TEST-AppTest.xml
+	new file:   build/test-results/TEST-LeapYearTest.xml
+	new file:   build/test-results/TEST-TaskTest.xml
+	new file:   build/test-results/binary/test/output.bin
+	new file:   build/test-results/binary/test/output.bin.idx
+	new file:   build/test-results/binary/test/results.bin
+	new file:   build/tmp/test/jar_extract_1632713368124047825_tmp
+	new file:   build/tmp/test/jar_extract_2378525652698008134_tmp
+	new file:   build/tmp/test/jar_extract_2921450964590011959_tmp
+	new file:   build/tmp/test/jar_extract_2973935831176804467_tmp
+	new file:   build/tmp/test/jar_extract_3228619523232975585_tmp
+	new file:   build/tmp/test/jar_extract_436767387438106596_tmp
+	new file:   build/tmp/test/jar_extract_4692990369354547193_tmp
+	new file:   build/tmp/test/jar_extract_4979280249347554952_tmp
+	new file:   build/tmp/test/jar_extract_5815853192284391109_tmp
+	new file:   build/tmp/test/jar_extract_5922830118965704810_tmp
+	new file:   build/tmp/test/jar_extract_6579085244301415379_tmp
+	new file:   build/tmp/test/jar_extract_677072442161126502_tmp
+	new file:   build/tmp/test/jar_extract_7179711127816432785_tmp
+	new file:   build/tmp/test/jar_extract_7461925668669317827_tmp
+	new file:   build/tmp/test/jar_extract_7654797177865591008_tmp
+	new file:   build/tmp/test/jar_extract_8040156767477423744_tmp
+	new file:   src/main/java/App.java
+	new file:   src/main/java/Task.java
+	new file:   src/main/java/spark/template/velocity/VelocityTemplateEngine.java
+	new file:   src/main/resources/public/app.css
+	new file:   src/main/resources/public/skeleton.css
+	new file:   src/main/resources/templates/index.vtl
+	new file:   src/main/resources/templates/layout.vtl
+	new file:   src/main/resources/templates/success.vtl
+	new file:   src/test/java/AppTest.java
+	new file:   src/test/java/ServerRule.java
+	new file:   src/test/java/TaskTest.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	../.DS_Store
+	../.localized
+	../.sass-cache/
+	../Doe.zip
+	../DoeSite/
+	../Java---Vowels-Game/
+	../Java-Leetspeak/
+	../JavaPractice/
+	../Left.pdf
+	../Screen Shot 2016-04-25 at 3.22.24 PM.png
+	../VowelsGame copy/
+	../bolt 2/
+	../bolt/
+	../doe/
+	../java-codereview1/
+	../java-rectangles/
+	../java-template-master.zip
+
+➜  ToDoList git:(master) ✗ pwd
+/Users/Safiya/Desktop/ToDoList
+➜  ToDoList git:(master) ✗ git init
+Initialized empty Git repository in /Users/Safiya/Desktop/ToDoList/.git/
+➜  ToDoList git:(master) ✗ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.gradle/
+	build.gradle
+	build/
+	src/
+
+nothing added to commit but untracked files present (use "git add" to track)
+➜  ToDoList git:(master) ✗ git add .
+➜  ToDoList git:(master) ✗ git commit -m "Update tests or something, just commiting" 
+[master (root-commit) ed08360] Update tests or something, just commiting
+ 68 files changed, 2500 insertions(+)
+ create mode 100644 .gradle/2.11/taskArtifacts/cache.properties
+ create mode 100644 .gradle/2.11/taskArtifacts/cache.properties.lock
+ create mode 100644 .gradle/2.11/taskArtifacts/fileHashes.bin
+ create mode 100644 .gradle/2.11/taskArtifacts/fileSnapshots.bin
+ create mode 100644 .gradle/2.11/taskArtifacts/outputFileStates.bin
+ create mode 100644 .gradle/2.11/taskArtifacts/taskArtifacts.bin
+ create mode 100755 .gradle/2.9/taskArtifacts/cache.properties
+ create mode 100755 .gradle/2.9/taskArtifacts/cache.properties.lock
+ create mode 100755 .gradle/2.9/taskArtifacts/fileHashes.bin
+ create mode 100755 .gradle/2.9/taskArtifacts/fileSnapshots.bin
+ create mode 100755 .gradle/2.9/taskArtifacts/outputFileStates.bin
+ create mode 100755 .gradle/2.9/taskArtifacts/taskArtifacts.bin
+ create mode 100755 build.gradle
+ create mode 100644 build/classes/main/App.class
+ create mode 100755 build/classes/main/LeapYear.class
+ create mode 100644 build/classes/main/Task.class
+ create mode 100755 build/classes/main/spark/template/velocity/VelocityTemplateEngine.class
+ create mode 100644 build/classes/test/AppTest.class
+ create mode 100755 build/classes/test/LeapYearTest.class
+ create mode 100644 build/classes/test/ServerRule.class
+ create mode 100644 build/classes/test/TaskTest.class
+ create mode 100644 build/reports/tests/classes/AppTest.html
+ create mode 100755 build/reports/tests/classes/LeapYearTest.html
+ create mode 100644 build/reports/tests/classes/TaskTest.html
+ create mode 100755 build/reports/tests/css/base-style.css
+ create mode 100755 build/reports/tests/css/style.css
+ create mode 100755 build/reports/tests/index.html
+ create mode 100755 build/reports/tests/js/report.js
+ create mode 100755 build/reports/tests/packages/default-package.html
+ create mode 100644 build/resources/main/public/app.css
+ create mode 100644 build/resources/main/public/skeleton.css
+ create mode 100755 build/resources/main/templates/detector.vtl
+ create mode 100644 build/resources/main/templates/index.vtl
+ create mode 100644 build/resources/main/templates/layout.vtl
+ create mode 100644 build/resources/main/templates/success.vtl
+ create mode 100644 build/test-results/TEST-AppTest.xml
+ create mode 100755 build/test-results/TEST-LeapYearTest.xml
+ create mode 100644 build/test-results/TEST-TaskTest.xml
+ create mode 100644 build/test-results/binary/test/output.bin
+ create mode 100644 build/test-results/binary/test/output.bin.idx
+ create mode 100644 build/test-results/binary/test/results.bin
+ create mode 100644 build/tmp/test/jar_extract_1632713368124047825_tmp
+ create mode 100644 build/tmp/test/jar_extract_2378525652698008134_tmp
+ create mode 100644 build/tmp/test/jar_extract_2921450964590011959_tmp
+ create mode 100644 build/tmp/test/jar_extract_2973935831176804467_tmp
+ create mode 100644 build/tmp/test/jar_extract_3228619523232975585_tmp
+ create mode 100644 build/tmp/test/jar_extract_436767387438106596_tmp
+ create mode 100644 build/tmp/test/jar_extract_4692990369354547193_tmp
+ create mode 100644 build/tmp/test/jar_extract_4979280249347554952_tmp
+ create mode 100644 build/tmp/test/jar_extract_5815853192284391109_tmp
+ create mode 100644 build/tmp/test/jar_extract_5922830118965704810_tmp
+ create mode 100644 build/tmp/test/jar_extract_6579085244301415379_tmp
+ create mode 100644 build/tmp/test/jar_extract_677072442161126502_tmp
+ create mode 100644 build/tmp/test/jar_extract_7179711127816432785_tmp
+ create mode 100644 build/tmp/test/jar_extract_7461925668669317827_tmp
+ create mode 100644 build/tmp/test/jar_extract_7654797177865591008_tmp
+ create mode 100644 build/tmp/test/jar_extract_8040156767477423744_tmp
+ create mode 100755 src/main/java/App.java
+ create mode 100644 src/main/java/Task.java
+ create mode 100755 src/main/java/spark/template/velocity/VelocityTemplateEngine.java
+ create mode 100644 src/main/resources/public/app.css
+ create mode 100644 src/main/resources/public/skeleton.css
+ create mode 100644 src/main/resources/templates/index.vtl
+ create mode 100644 src/main/resources/templates/layout.vtl
+ create mode 100644 src/main/resources/templates/success.vtl
+ create mode 100644 src/test/java/AppTest.java
+ create mode 100644 src/test/java/ServerRule.java
+ create mode 100755 src/test/java/TaskTest.java
+➜  ToDoList git:(master) git remote add todolist https://github.com/5adiyah/Java-ToDoList.git
+➜  ToDoList git:(master) git push todolist
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream todolist master
+
+➜  ToDoList git:(master) git push todolist master
+Username for 'https://github.com': 5adiyah
+Password for 'https://5adiyah@github.com': 
+Counting objects: 88, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (70/70), done.
+Writing objects: 100% (88/88), 43.51 KiB | 0 bytes/s, done.
+Total 88 (delta 11), reused 0 (delta 0)
+To https://github.com/5adiyah/Java-ToDoList.git
+ * [new branch]      master -> master
+➜  ToDoList git:(master) gradle test                                                         
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:compileTestJava
+:processTestResources UP-TO-DATE
+:testClasses
+:test
+
+AppTest > rootTest FAILED
+    java.lang.AssertionError at AppTest.java:23
+
+AppTest > taskIsDisplayedTest FAILED
+    org.openqa.selenium.NoSuchElementException at AppTest.java:29
+
+8 tests completed, 2 failed
+:test FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':test'.
+> There were failing tests. See the report at: file:///Users/Safiya/Desktop/ToDoList/build/reports/tests/index.html
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 13.006 secs
+➜  ToDoList git:(master) ✗ gradle test
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:compileTestJava
+:processTestResources UP-TO-DATE
+:testClasses
+:test
+
+BUILD SUCCESSFUL
+
+Total time: 12.146 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.11/userguide/gradle_daemon.html
+➜  ToDoList git:(master) ✗ cd~
+zsh: command not found: cd~
+➜  ToDoList git:(master) ✗ cd ~     
+➜  ~ cd Desktop 
+➜  Desktop git:(master) ✗ git clone https://github.com/5adiyah/Java-ToDoList.git
+Cloning into 'Java-ToDoList'...
+lremote: Counting objects: 88, done.
+^R
+remote: Compressing objects: 100% (59/59), done.
+remote: Total 88 (delta 11), reused 88 (delta 11), pack-reused 0
+Unpacking objects: 100% (88/88), done.
+Checking connectivity... done.
+➜  Desktop git:(master) ✗ ls
+Java-ToDoList            dictionary               java-template-master.zip
+➜  Desktop git:(master) ✗ cd Java-ToDoList 
+➜  Java-ToDoList git:(master) gradle run
+:compileJava
+:processResources
+:classes
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @347ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@42c4e702{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+[Thread-0] INFO org.eclipse.jetty.server.Server - Started @600ms
+> Building 75% > :run^C
+➜  Java-ToDoList git:(master) ✗ 
+➜  Java-ToDoList git:(master) ✗ cd ~
+➜  ~ cd Desktop 
+➜  Desktop git:(master) ✗ cd dictionary 
+➜  dictionary git:(master) ✗ git init
+Initialized empty Git repository in /Users/Safiya/Desktop/dictionary/.git/
+➜  dictionary git:(master) ✗ git add .
+➜  dictionary git:(master) ✗ git commit -m "Initial Commit, file structure set up"
+[master (root-commit) 024c7fc] Initial Commit, file structure set up
+ 34 files changed, 1532 insertions(+)
+ create mode 100755 .gradle/2.9/taskArtifacts/cache.properties
+ create mode 100755 .gradle/2.9/taskArtifacts/cache.properties.lock
+ create mode 100755 .gradle/2.9/taskArtifacts/fileHashes.bin
+ create mode 100755 .gradle/2.9/taskArtifacts/fileSnapshots.bin
+ create mode 100755 .gradle/2.9/taskArtifacts/outputFileStates.bin
+ create mode 100755 .gradle/2.9/taskArtifacts/taskArtifacts.bin
+ create mode 100755 build.gradle
+ create mode 100755 build/classes/main/LeapYear.class
+ create mode 100755 build/classes/main/spark/template/velocity/VelocityTemplateEngine.class
+ create mode 100755 build/classes/test/LeapYearTest.class
+ create mode 100755 build/reports/tests/classes/LeapYearTest.html
+ create mode 100755 build/reports/tests/css/base-style.css
+ create mode 100755 build/reports/tests/css/style.css
+ create mode 100755 build/reports/tests/index.html
+ create mode 100755 build/reports/tests/js/report.js
+ create mode 100755 build/reports/tests/packages/default-package.html
+ create mode 100755 build/resources/main/templates/detector.vtl
+ create mode 100755 build/resources/main/templates/home.vtl
+ create mode 100755 build/resources/main/templates/layout.vtl
+ create mode 100755 build/test-results/TEST-LeapYearTest.xml
+ create mode 100755 build/test-results/binary/test/output.bin
+ create mode 100755 build/test-results/binary/test/output.bin.idx
+ create mode 100755 build/test-results/binary/test/results.bin
+ create mode 100755 src/main/java/App.java
+ create mode 100644 src/main/java/Definition.java
+ create mode 100644 src/main/java/Word.java
+ create mode 100755 src/main/java/spark/template/velocity/VelocityTemplateEngine.java
+ create mode 100755 src/main/resources/public/app.css
+ create mode 100755 src/main/resources/public/skeleton.css
+ create mode 100755 src/main/resources/templates/home.vtl
+ create mode 100755 src/main/resources/templates/layout.vtl
+ create mode 100755 src/test/java/AppTest.java
+ create mode 100644 src/test/java/DefinitionTest.java
+ create mode 100644 src/test/java/WordTest.java
+➜  dictionary git:(master) git remote add dictionary https://github.com/5adiyah/Java-Dictionary.git
+➜  dictionary git:(master) git push dictionary master
+Username for 'https://github.com': 5adiyah
+Password for 'https://5adiyah@github.com': 
+Counting objects: 67, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (47/47), done.
+Writing objects: 100% (67/67), 22.36 KiB | 0 bytes/s, done.
+Total 67 (delta 5), reused 0 (delta 0)
+To https://github.com/5adiyah/Java-Dictionary.git
+ * [new branch]      master -> master
+➜  dictionary git:(master) pwd
+/Users/Safiya/Desktop/dictionary
+➜  dictionary git:(master) ✗ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   src/test/java/WordTest.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  dictionary git:(master) ✗ gradle test
+:compileJava
+:processResources
+:classes
+:compileTestJava
+/Users/Safiya/Desktop/dictionary/src/test/java/DefinitionTest.java:4: error: class name is public, should be declared in a file named name.java
+public class name {
+       ^
+/Users/Safiya/Desktop/dictionary/src/test/java/WordTest.java:4: error: class name is public, should be declared in a file named name.java
+public class name {
+       ^
+/Users/Safiya/Desktop/dictionary/src/test/java/DefinitionTest.java:8: error: cannot find symbol
+  MainClassName testMainClassName = new MainClassName();
+  ^
+  symbol:   class MainClassName
+  location: class name
+/Users/Safiya/Desktop/dictionary/src/test/java/DefinitionTest.java:8: error: cannot find symbol
+  MainClassName testMainClassName = new MainClassName();
+                                        ^
+  symbol:   class MainClassName
+  location: class name
+4 errors
+:compileTestJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 6.545 secs
+➜  dictionary git:(master) ✗ gradle test
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava
+/Users/Safiya/Desktop/dictionary/src/test/java/WordTest.java:4: error: class name is public, should be declared in a file named name.java
+public class name {
+       ^
+/Users/Safiya/Desktop/dictionary/src/test/java/WordTest.java:8: error: constructor Word in class Word cannot be applied to given types;
+  Word testWord = new Word("Pencil");
+                  ^
+  required: no arguments
+  found: String
+  reason: actual and formal argument lists differ in length
+2 errors
+:compileTestJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 5.674 secs
+➜  dictionary git:(master) ✗ gradle test
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:compileTestJava
+/Users/Safiya/Desktop/dictionary/src/test/java/WordTest.java:4: error: class name is public, should be declared in a file named name.java
+public class name {
+       ^
+1 error
+:compileTestJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 5.736 secs
+➜  dictionary git:(master) ✗ gradle test
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava
+:processTestResources UP-TO-DATE
+:testClasses
+:test
+
+BUILD SUCCESSFUL
+
+Total time: 7.885 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.11/userguide/gradle_daemon.html
+➜  dictionary git:(master) ✗ gradle test
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:compileTestJava
+/Users/Safiya/Desktop/dictionary/src/test/java/WordTest.java:14: error: cannot find symbol
+    Word testWord = newWord("Pencils");
+                    ^
+  symbol:   method newWord(String)
+  location: class WordTest
+1 error
+:compileTestJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 7.466 secs
+➜  dictionary git:(master) ✗ gradle test
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava
+:processTestResources UP-TO-DATE
+:testClasses
+:test
+
+WordTest > getWord_getsUserInputedWord FAILED
+    org.junit.ComparisonFailure at WordTest.java:16
+
+6 tests completed, 1 failed
+:test FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':test'.
+> There were failing tests. See the report at: file:///Users/Safiya/Desktop/dictionary/build/reports/tests/index.html
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 7.385 secs
+➜  dictionary git:(master) ✗ gradle test
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava
+:processTestResources UP-TO-DATE
+:testClasses
+:test
+
+BUILD SUCCESSFUL
+
+Total time: 7.422 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.11/userguide/gradle_daemon.html
+gi%                                                                                                                                                                      ➜  dictionary git:(master) ✗ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   build/reports/tests/classes/LeapYearTest.html
+	modified:   build/reports/tests/index.html
+	modified:   build/reports/tests/packages/default-package.html
+	modified:   build/resources/main/templates/home.vtl
+	modified:   build/resources/main/templates/layout.vtl
+	modified:   build/test-results/TEST-LeapYearTest.xml
+	modified:   build/test-results/binary/test/output.bin
+	modified:   build/test-results/binary/test/output.bin.idx
+	modified:   build/test-results/binary/test/results.bin
+	modified:   src/main/java/Word.java
+	modified:   src/test/java/DefinitionTest.java
+	modified:   src/test/java/WordTest.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.gradle/2.11/
+	build/classes/main/App.class
+	build/classes/main/Definition.class
+	build/classes/main/Word.class
+	build/classes/test/WordTest.class
+	build/reports/tests/classes/WordTest.html
+	build/resources/main/public/
+	build/test-results/TEST-WordTest.xml
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  dictionary git:(master) ✗ git add .
+➜  dictionary git:(master) ✗ git commit -m "Pass test for getWord";
+[master 18418c8] Pass test for getWord
+ 26 files changed, 723 insertions(+), 55 deletions(-)
+ create mode 100644 .gradle/2.11/taskArtifacts/cache.properties
+ create mode 100644 .gradle/2.11/taskArtifacts/cache.properties.lock
+ create mode 100644 .gradle/2.11/taskArtifacts/fileHashes.bin
+ create mode 100644 .gradle/2.11/taskArtifacts/fileSnapshots.bin
+ create mode 100644 .gradle/2.11/taskArtifacts/outputFileStates.bin
+ create mode 100644 .gradle/2.11/taskArtifacts/taskArtifacts.bin
+ create mode 100644 build/classes/main/App.class
+ create mode 100644 build/classes/main/Definition.class
+ create mode 100644 build/classes/main/Word.class
+ create mode 100644 build/classes/test/WordTest.class
+ create mode 100644 build/reports/tests/classes/WordTest.html
+ create mode 100755 build/resources/main/public/app.css
+ create mode 100755 build/resources/main/public/skeleton.css
+ create mode 100644 build/test-results/TEST-WordTest.xml
+ mode change 100755 => 100644 build/test-results/binary/test/output.bin
+ mode change 100755 => 100644 build/test-results/binary/test/output.bin.idx
+ mode change 100755 => 100644 build/test-results/binary/test/results.bin
+ rewrite src/test/java/WordTest.java (85%)
+➜  dictionary git:(master) gradle test                           
+:compileJava
+/Users/Safiya/Desktop/dictionary/src/main/java/Word.java:3: error: cannot find symbol
+  private static ArrayList<Word> instances = new ArrayList<Word>();
+                 ^
+  symbol:   class ArrayList
+  location: class Word
+/Users/Safiya/Desktop/dictionary/src/main/java/Word.java:13: error: cannot find symbol
+  public static ArrayList<Word> all(){
+                ^
+  symbol:   class ArrayList
+  location: class Word
+/Users/Safiya/Desktop/dictionary/src/main/java/Word.java:3: error: cannot find symbol
+  private static ArrayList<Word> instances = new ArrayList<Word>();
+                                                 ^
+  symbol:   class ArrayList
+  location: class Word
+3 errors
+:compileJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 6.897 secs
+➜  dictionary git:(master) ✗ gradle test
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:compileTestJava
+/Users/Safiya/Desktop/dictionary/src/test/java/WordTest.java:24: error: cannot find symbol
+    assertTrue(Task.all().contains(firstWord));
+               ^
+  symbol:   variable Task
+  location: class WordTest
+/Users/Safiya/Desktop/dictionary/src/test/java/WordTest.java:25: error: cannot find symbol
+    assertTrue(Task.all().contains(secondWord));
+               ^
+  symbol:   variable Task
+  location: class WordTest
+2 errors
+:compileTestJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 6.176 secs
+➜  dictionary git:(master) ✗ gradle test
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava
+:processTestResources UP-TO-DATE
+:testClasses
+:test
+
+WordTest > all_returnsAllInstancesOfWord FAILED
+    java.lang.AssertionError at WordTest.java:24
+
+7 tests completed, 1 failed
+:test FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':test'.
+> There were failing tests. See the report at: file:///Users/Safiya/Desktop/dictionary/build/reports/tests/index.html
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 7.451 secs
+➜  dictionary git:(master) ✗ gradle test
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava
+:processTestResources UP-TO-DATE
+:testClasses
+:test
+
+WordTest > all_returnsAllInstancesOfWord_true FAILED
+    java.lang.AssertionError at WordTest.java:24
+
+7 tests completed, 1 failed
+:test FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':test'.
+> There were failing tests. See the report at: file:///Users/Safiya/Desktop/dictionary/build/reports/tests/index.html
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 7.367 secs
+➜  dictionary git:(master) ✗ gradle test
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:compileTestJava
+:processTestResources UP-TO-DATE
+:testClasses
+:test
+
+BUILD SUCCESSFUL
+
+Total time: 7.268 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.11/userguide/gradle_daemon.html
+➜  dictionary git:(master) ✗ git add .
+➜  dictionary git:(master) ✗ git commit -m "returnsAllInstancesOfWord"
+[master 425b26c] returnsAllInstancesOfWord
+ 15 files changed, 50 insertions(+), 27 deletions(-)
+ rewrite build/classes/main/Word.class (100%)
+ rewrite build/classes/test/WordTest.class (90%)
+➜  dictionary git:(master) gradle test                              
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:compileTestJava
+/Users/Safiya/Desktop/dictionary/src/test/java/WordTest.java:31: error: cannot find symbol
+   assertEquals(Task.all().size(), testWord.getId());
+                ^
+  symbol:   variable Task
+  location: class WordTest
+/Users/Safiya/Desktop/dictionary/src/test/java/WordTest.java:31: error: cannot find symbol
+   assertEquals(Task.all().size(), testWord.getId());
+                                           ^
+  symbol:   method getId()
+  location: variable testWord of type Word
+/Users/Safiya/Desktop/dictionary/src/test/java/WordTest.java:39: error: cannot find symbol
+   assertEquals(Word.find(secondWord.getId()), secondWord);
+                                    ^
+  symbol:   method getId()
+  location: variable secondWord of type Word
+3 errors
+:compileTestJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 6.275 secs
+➜  dictionary git:(master) ✗ gradle test
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava
+/Users/Safiya/Desktop/dictionary/src/test/java/WordTest.java:31: error: cannot find symbol
+   assertEquals(Word.all().size(), testWord.getId());
+                                           ^
+  symbol:   method getId()
+  location: variable testWord of type Word
+/Users/Safiya/Desktop/dictionary/src/test/java/WordTest.java:39: error: cannot find symbol
+   assertEquals(Word.find(secondWord.getId()), secondWord);
+                                    ^
+  symbol:   method getId()
+  location: variable secondWord of type Word
+2 errors
+:compileTestJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 5.786 secs
+➜  dictionary git:(master) ✗ gradle test
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:compileTestJava
+:processTestResources UP-TO-DATE
+:testClasses
+:test
+
+BUILD SUCCESSFUL
+
+Total time: 7.416 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.11/userguide/gradle_daemon.html
+➜  dictionary git:(master) ✗ git add .
+➜  dictionary git:(master) ✗ git commit -m "Add test for word ids;
+dquote> "
+[master e792eeb] Add test for word ids;
+ 15 files changed, 64 insertions(+), 22 deletions(-)
+ rewrite build/classes/main/Word.class (99%)
+ rewrite build/classes/test/WordTest.class (78%)
+ rewrite build/test-results/binary/test/results.bin (100%)
+➜  dictionary git:(master) gradle test                          
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava
+/Users/Safiya/Desktop/dictionary/src/test/java/WordTest.java:44: error: cannot find symbol
+    assertTrue(Task.find(999) == null);
+               ^
+  symbol:   variable Task
+  location: class WordTest
+1 error
+:compileTestJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 5.835 secs
+➜  dictionary git:(master) ✗ gradle test
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava
+:processTestResources UP-TO-DATE
+:testClasses
+:test
+
+BUILD SUCCESSFUL
+
+Total time: 7.375 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.11/userguide/gradle_daemon.html
+➜  dictionary git:(master) ✗ gradle test
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava
+:processTestResources UP-TO-DATE
+:testClasses
+:test
+
+BUILD SUCCESSFUL
+
+Total time: 7.898 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.11/userguide/gradle_daemon.html
+➜  dictionary git:(master) ✗ gradle test
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:compileTestJava
+/Users/Safiya/Desktop/dictionary/src/test/java/DefinitionTest.java:8: error: cannot find symbol
+  MainClassName testMainClassName = new MainClassName();
+  ^
+  symbol:   class MainClassName
+  location: class DefinitionTest
+/Users/Safiya/Desktop/dictionary/src/test/java/DefinitionTest.java:8: error: cannot find symbol
+  MainClassName testMainClassName = new MainClassName();
+                                        ^
+  symbol:   class MainClassName
+  location: class DefinitionTest
+2 errors
+:compileTestJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 6.307 secs
+➜  dictionary git:(master) ✗ gradle test
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava
+:processTestResources UP-TO-DATE
+:testClasses
+:test
+
+BUILD SUCCESSFUL
+
+Total time: 7.902 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.11/userguide/gradle_daemon.html
+➜  dictionary git:(master) ✗ gradle test
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava
+:processTestResources UP-TO-DATE
+:testClasses
+:test
+
+BUILD SUCCESSFUL
+
+Total time: 8.725 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.11/userguide/gradle_daemon.html
+➜  dictionary git:(master) ✗ gradle test
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava
+/Users/Safiya/Desktop/dictionary/src/test/java/WordTest.java:24: error: method newDefinition in class Word cannot be applied to given types;
+    assertEquals(expected, testWord.newDefinition());
+                                   ^
+  required: Definition
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+1 error
+:compileTestJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 6.01 secs
+➜  dictionary git:(master) ✗ gradle test
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava
+/Users/Safiya/Desktop/dictionary/src/test/java/WordTest.java:23: error: constructor Definition in class Definition cannot be applied to given types;
+    Definition definition = new Definition("Something to write with");
+                            ^
+  required: no arguments
+  found: String
+  reason: actual and formal argument lists differ in length
+/Users/Safiya/Desktop/dictionary/src/test/java/WordTest.java:24: error: cannot find symbol
+    assertEquals(expected, testWord.newDefinition());
+                 ^
+  symbol:   variable expected
+  location: class WordTest
+/Users/Safiya/Desktop/dictionary/src/test/java/WordTest.java:24: error: method newDefinition in class Word cannot be applied to given types;
+    assertEquals(expected, testWord.newDefinition());
+                                   ^
+  required: Definition
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+/Users/Safiya/Desktop/dictionary/src/test/java/WordTest.java:32: error: cannot find symbol
+   assertTrue(testWord.getDefinitions().contains(definition));
+                                                 ^
+  symbol:   variable definition
+  location: class WordTest
+4 errors
+:compileTestJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 6.043 secs
+➜  dictionary git:(master) ✗ gradle test
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava
+:processTestResources UP-TO-DATE
+:testClasses
+:test
+
+BUILD SUCCESSFUL
+
+Total time: 11.144 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.11/userguide/gradle_daemon.html
+➜  dictionary git:(master) ✗ gradle test
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:compileTestJava
+:processTestResources UP-TO-DATE
+:testClasses
+:test
+
+BUILD SUCCESSFUL
+
+Total time: 8.071 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.11/userguide/gradle_daemon.html
+➜  dictionary git:(master) ✗ git init
+Reinitialized existing Git repository in /Users/Safiya/Desktop/dictionary/.git/
+➜  dictionary git:(master) ✗ rm -rf .git
+➜  dictionary git:(master) ✗ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   ../ToDoList/.gradle/2.11/taskArtifacts/cache.properties
+	new file:   ../ToDoList/.gradle/2.11/taskArtifacts/cache.properties.lock
+	new file:   ../ToDoList/.gradle/2.11/taskArtifacts/fileHashes.bin
+	new file:   ../ToDoList/.gradle/2.11/taskArtifacts/fileSnapshots.bin
+	new file:   ../ToDoList/.gradle/2.11/taskArtifacts/outputFileStates.bin
+	new file:   ../ToDoList/.gradle/2.11/taskArtifacts/taskArtifacts.bin
+	new file:   ../ToDoList/.gradle/2.9/taskArtifacts/cache.properties
+	new file:   ../ToDoList/.gradle/2.9/taskArtifacts/cache.properties.lock
+	new file:   ../ToDoList/.gradle/2.9/taskArtifacts/fileHashes.bin
+	new file:   ../ToDoList/.gradle/2.9/taskArtifacts/fileSnapshots.bin
+	new file:   ../ToDoList/.gradle/2.9/taskArtifacts/outputFileStates.bin
+	new file:   ../ToDoList/.gradle/2.9/taskArtifacts/taskArtifacts.bin
+	new file:   ../ToDoList/build.gradle
+	new file:   ../ToDoList/build/classes/main/App.class
+	new file:   ../ToDoList/build/classes/main/LeapYear.class
+	new file:   ../ToDoList/build/classes/main/Task.class
+	new file:   ../ToDoList/build/classes/main/spark/template/velocity/VelocityTemplateEngine.class
+	new file:   ../ToDoList/build/classes/test/AppTest.class
+	new file:   ../ToDoList/build/classes/test/LeapYearTest.class
+	new file:   ../ToDoList/build/classes/test/ServerRule.class
+	new file:   ../ToDoList/build/classes/test/TaskTest.class
+	new file:   ../ToDoList/build/reports/tests/classes/AppTest.html
+	new file:   ../ToDoList/build/reports/tests/classes/LeapYearTest.html
+	new file:   ../ToDoList/build/reports/tests/classes/TaskTest.html
+	new file:   ../ToDoList/build/reports/tests/css/base-style.css
+	new file:   ../ToDoList/build/reports/tests/css/style.css
+	new file:   ../ToDoList/build/reports/tests/index.html
+	new file:   ../ToDoList/build/reports/tests/js/report.js
+	new file:   ../ToDoList/build/reports/tests/packages/default-package.html
+	new file:   ../ToDoList/build/resources/main/public/app.css
+	new file:   ../ToDoList/build/resources/main/public/skeleton.css
+	new file:   ../ToDoList/build/resources/main/templates/detector.vtl
+	new file:   ../ToDoList/build/resources/main/templates/index.vtl
+	new file:   ../ToDoList/build/resources/main/templates/layout.vtl
+	new file:   ../ToDoList/build/resources/main/templates/success.vtl
+	new file:   ../ToDoList/build/test-results/TEST-AppTest.xml
+	new file:   ../ToDoList/build/test-results/TEST-LeapYearTest.xml
+	new file:   ../ToDoList/build/test-results/TEST-TaskTest.xml
+	new file:   ../ToDoList/build/test-results/binary/test/output.bin
+	new file:   ../ToDoList/build/test-results/binary/test/output.bin.idx
+	new file:   ../ToDoList/build/test-results/binary/test/results.bin
+	new file:   ../ToDoList/build/tmp/test/jar_extract_1632713368124047825_tmp
+	new file:   ../ToDoList/build/tmp/test/jar_extract_2378525652698008134_tmp
+	new file:   ../ToDoList/build/tmp/test/jar_extract_2921450964590011959_tmp
+	new file:   ../ToDoList/build/tmp/test/jar_extract_2973935831176804467_tmp
+	new file:   ../ToDoList/build/tmp/test/jar_extract_3228619523232975585_tmp
+	new file:   ../ToDoList/build/tmp/test/jar_extract_436767387438106596_tmp
+	new file:   ../ToDoList/build/tmp/test/jar_extract_4692990369354547193_tmp
+	new file:   ../ToDoList/build/tmp/test/jar_extract_4979280249347554952_tmp
+	new file:   ../ToDoList/build/tmp/test/jar_extract_5815853192284391109_tmp
+	new file:   ../ToDoList/build/tmp/test/jar_extract_5922830118965704810_tmp
+	new file:   ../ToDoList/build/tmp/test/jar_extract_6579085244301415379_tmp
+	new file:   ../ToDoList/build/tmp/test/jar_extract_677072442161126502_tmp
+	new file:   ../ToDoList/build/tmp/test/jar_extract_7179711127816432785_tmp
+	new file:   ../ToDoList/build/tmp/test/jar_extract_7461925668669317827_tmp
+	new file:   ../ToDoList/build/tmp/test/jar_extract_7654797177865591008_tmp
+	new file:   ../ToDoList/build/tmp/test/jar_extract_8040156767477423744_tmp
+	new file:   ../ToDoList/src/main/java/App.java
+	new file:   ../ToDoList/src/main/java/Task.java
+	new file:   ../ToDoList/src/main/java/spark/template/velocity/VelocityTemplateEngine.java
+	new file:   ../ToDoList/src/main/resources/public/app.css
+	new file:   ../ToDoList/src/main/resources/public/skeleton.css
+	new file:   ../ToDoList/src/main/resources/templates/index.vtl
+	new file:   ../ToDoList/src/main/resources/templates/layout.vtl
+	new file:   ../ToDoList/src/main/resources/templates/success.vtl
+	new file:   ../ToDoList/src/test/java/AppTest.java
+	new file:   ../ToDoList/src/test/java/ServerRule.java
+	new file:   ../ToDoList/src/test/java/TaskTest.java
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	deleted:    ../ToDoList/.gradle/2.11/taskArtifacts/cache.properties
+	deleted:    ../ToDoList/.gradle/2.11/taskArtifacts/cache.properties.lock
+	deleted:    ../ToDoList/.gradle/2.11/taskArtifacts/fileHashes.bin
+	deleted:    ../ToDoList/.gradle/2.11/taskArtifacts/fileSnapshots.bin
+	deleted:    ../ToDoList/.gradle/2.11/taskArtifacts/outputFileStates.bin
+	deleted:    ../ToDoList/.gradle/2.11/taskArtifacts/taskArtifacts.bin
+	deleted:    ../ToDoList/.gradle/2.9/taskArtifacts/cache.properties
+	deleted:    ../ToDoList/.gradle/2.9/taskArtifacts/cache.properties.lock
+	deleted:    ../ToDoList/.gradle/2.9/taskArtifacts/fileHashes.bin
+	deleted:    ../ToDoList/.gradle/2.9/taskArtifacts/fileSnapshots.bin
+	deleted:    ../ToDoList/.gradle/2.9/taskArtifacts/outputFileStates.bin
+	deleted:    ../ToDoList/.gradle/2.9/taskArtifacts/taskArtifacts.bin
+	deleted:    ../ToDoList/build.gradle
+	deleted:    ../ToDoList/build/classes/main/App.class
+	deleted:    ../ToDoList/build/classes/main/LeapYear.class
+	deleted:    ../ToDoList/build/classes/main/Task.class
+	deleted:    ../ToDoList/build/classes/main/spark/template/velocity/VelocityTemplateEngine.class
+	deleted:    ../ToDoList/build/classes/test/AppTest.class
+	deleted:    ../ToDoList/build/classes/test/LeapYearTest.class
+	deleted:    ../ToDoList/build/classes/test/ServerRule.class
+	deleted:    ../ToDoList/build/classes/test/TaskTest.class
+	deleted:    ../ToDoList/build/reports/tests/classes/AppTest.html
+	deleted:    ../ToDoList/build/reports/tests/classes/LeapYearTest.html
+	deleted:    ../ToDoList/build/reports/tests/classes/TaskTest.html
+	deleted:    ../ToDoList/build/reports/tests/css/base-style.css
+	deleted:    ../ToDoList/build/reports/tests/css/style.css
+	deleted:    ../ToDoList/build/reports/tests/index.html
+	deleted:    ../ToDoList/build/reports/tests/js/report.js
+	deleted:    ../ToDoList/build/reports/tests/packages/default-package.html
+	deleted:    ../ToDoList/build/resources/main/public/app.css
+	deleted:    ../ToDoList/build/resources/main/public/skeleton.css
+	deleted:    ../ToDoList/build/resources/main/templates/detector.vtl
+	deleted:    ../ToDoList/build/resources/main/templates/index.vtl
+	deleted:    ../ToDoList/build/resources/main/templates/layout.vtl
+	deleted:    ../ToDoList/build/resources/main/templates/success.vtl
+	deleted:    ../ToDoList/build/test-results/TEST-AppTest.xml
+	deleted:    ../ToDoList/build/test-results/TEST-LeapYearTest.xml
+	deleted:    ../ToDoList/build/test-results/TEST-TaskTest.xml
+	deleted:    ../ToDoList/build/test-results/binary/test/output.bin
+	deleted:    ../ToDoList/build/test-results/binary/test/output.bin.idx
+	deleted:    ../ToDoList/build/test-results/binary/test/results.bin
+	deleted:    ../ToDoList/build/tmp/test/jar_extract_1632713368124047825_tmp
+	deleted:    ../ToDoList/build/tmp/test/jar_extract_2378525652698008134_tmp
+	deleted:    ../ToDoList/build/tmp/test/jar_extract_2921450964590011959_tmp
+	deleted:    ../ToDoList/build/tmp/test/jar_extract_2973935831176804467_tmp
+	deleted:    ../ToDoList/build/tmp/test/jar_extract_3228619523232975585_tmp
+	deleted:    ../ToDoList/build/tmp/test/jar_extract_436767387438106596_tmp
+	deleted:    ../ToDoList/build/tmp/test/jar_extract_4692990369354547193_tmp
+	deleted:    ../ToDoList/build/tmp/test/jar_extract_4979280249347554952_tmp
+	deleted:    ../ToDoList/build/tmp/test/jar_extract_5815853192284391109_tmp
+	deleted:    ../ToDoList/build/tmp/test/jar_extract_5922830118965704810_tmp
+	deleted:    ../ToDoList/build/tmp/test/jar_extract_6579085244301415379_tmp
+	deleted:    ../ToDoList/build/tmp/test/jar_extract_677072442161126502_tmp
+	deleted:    ../ToDoList/build/tmp/test/jar_extract_7179711127816432785_tmp
+	deleted:    ../ToDoList/build/tmp/test/jar_extract_7461925668669317827_tmp
+	deleted:    ../ToDoList/build/tmp/test/jar_extract_7654797177865591008_tmp
+	deleted:    ../ToDoList/build/tmp/test/jar_extract_8040156767477423744_tmp
+	modified:   ../ToDoList/src/main/java/App.java
+	modified:   ../ToDoList/src/main/java/Task.java
+	deleted:    ../ToDoList/src/main/java/spark/template/velocity/VelocityTemplateEngine.java
+	deleted:    ../ToDoList/src/main/resources/public/app.css
+	deleted:    ../ToDoList/src/main/resources/public/skeleton.css
+	deleted:    ../ToDoList/src/main/resources/templates/layout.vtl
+	deleted:    ../ToDoList/src/test/java/ServerRule.java
+	modified:   ../ToDoList/src/test/java/TaskTest.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	../.DS_Store
+	../.localized
+	../.sass-cache/
+	../Java-ToDoList 2/
+	../Java-ToDoList/
+	./
+	../epicodus-java-todo-list-day3/
+	../java-codereview4/
+	../java-template-master.zip
+
+➜  dictionary git:(master) ✗ git add .
+➜  dictionary git:(master) ✗ git commit -m "Pass the test to instantiate Definition class"
+[master (root-commit) f086a5b] Pass the test to instantiate Definition class
+ 119 files changed, 4912 insertions(+)
+ create mode 100644 ToDoList/.gradle/2.11/taskArtifacts/cache.properties
+ create mode 100644 ToDoList/.gradle/2.11/taskArtifacts/cache.properties.lock
+ create mode 100644 ToDoList/.gradle/2.11/taskArtifacts/fileHashes.bin
+ create mode 100644 ToDoList/.gradle/2.11/taskArtifacts/fileSnapshots.bin
+ create mode 100644 ToDoList/.gradle/2.11/taskArtifacts/outputFileStates.bin
+ create mode 100644 ToDoList/.gradle/2.11/taskArtifacts/taskArtifacts.bin
+ create mode 100755 ToDoList/.gradle/2.9/taskArtifacts/cache.properties
+ create mode 100755 ToDoList/.gradle/2.9/taskArtifacts/cache.properties.lock
+ create mode 100755 ToDoList/.gradle/2.9/taskArtifacts/fileHashes.bin
+ create mode 100755 ToDoList/.gradle/2.9/taskArtifacts/fileSnapshots.bin
+ create mode 100755 ToDoList/.gradle/2.9/taskArtifacts/outputFileStates.bin
+ create mode 100755 ToDoList/.gradle/2.9/taskArtifacts/taskArtifacts.bin
+ create mode 100755 ToDoList/build.gradle
+ create mode 100644 ToDoList/build/classes/main/App.class
+ create mode 100755 ToDoList/build/classes/main/LeapYear.class
+ create mode 100644 ToDoList/build/classes/main/Task.class
+ create mode 100755 ToDoList/build/classes/main/spark/template/velocity/VelocityTemplateEngine.class
+ create mode 100644 ToDoList/build/classes/test/AppTest.class
+ create mode 100755 ToDoList/build/classes/test/LeapYearTest.class
+ create mode 100644 ToDoList/build/classes/test/ServerRule.class
+ create mode 100644 ToDoList/build/classes/test/TaskTest.class
+ create mode 100644 ToDoList/build/reports/tests/classes/AppTest.html
+ create mode 100755 ToDoList/build/reports/tests/classes/LeapYearTest.html
+ create mode 100644 ToDoList/build/reports/tests/classes/TaskTest.html
+ create mode 100755 ToDoList/build/reports/tests/css/base-style.css
+ create mode 100755 ToDoList/build/reports/tests/css/style.css
+ create mode 100755 ToDoList/build/reports/tests/index.html
+ create mode 100755 ToDoList/build/reports/tests/js/report.js
+ create mode 100755 ToDoList/build/reports/tests/packages/default-package.html
+ create mode 100644 ToDoList/build/resources/main/public/app.css
+ create mode 100644 ToDoList/build/resources/main/public/skeleton.css
+ create mode 100755 ToDoList/build/resources/main/templates/detector.vtl
+ create mode 100644 ToDoList/build/resources/main/templates/index.vtl
+ create mode 100644 ToDoList/build/resources/main/templates/layout.vtl
+ create mode 100644 ToDoList/build/resources/main/templates/success.vtl
+ create mode 100644 ToDoList/build/test-results/TEST-AppTest.xml
+ create mode 100755 ToDoList/build/test-results/TEST-LeapYearTest.xml
+ create mode 100644 ToDoList/build/test-results/TEST-TaskTest.xml
+ create mode 100644 ToDoList/build/test-results/binary/test/output.bin
+ create mode 100644 ToDoList/build/test-results/binary/test/output.bin.idx
+ create mode 100644 ToDoList/build/test-results/binary/test/results.bin
+ create mode 100644 ToDoList/build/tmp/test/jar_extract_1632713368124047825_tmp
+ create mode 100644 ToDoList/build/tmp/test/jar_extract_2378525652698008134_tmp
+ create mode 100644 ToDoList/build/tmp/test/jar_extract_2921450964590011959_tmp
+ create mode 100644 ToDoList/build/tmp/test/jar_extract_2973935831176804467_tmp
+ create mode 100644 ToDoList/build/tmp/test/jar_extract_3228619523232975585_tmp
+ create mode 100644 ToDoList/build/tmp/test/jar_extract_436767387438106596_tmp
+ create mode 100644 ToDoList/build/tmp/test/jar_extract_4692990369354547193_tmp
+ create mode 100644 ToDoList/build/tmp/test/jar_extract_4979280249347554952_tmp
+ create mode 100644 ToDoList/build/tmp/test/jar_extract_5815853192284391109_tmp
+ create mode 100644 ToDoList/build/tmp/test/jar_extract_5922830118965704810_tmp
+ create mode 100644 ToDoList/build/tmp/test/jar_extract_6579085244301415379_tmp
+ create mode 100644 ToDoList/build/tmp/test/jar_extract_677072442161126502_tmp
+ create mode 100644 ToDoList/build/tmp/test/jar_extract_7179711127816432785_tmp
+ create mode 100644 ToDoList/build/tmp/test/jar_extract_7461925668669317827_tmp
+ create mode 100644 ToDoList/build/tmp/test/jar_extract_7654797177865591008_tmp
+ create mode 100644 ToDoList/build/tmp/test/jar_extract_8040156767477423744_tmp
+ create mode 100755 ToDoList/src/main/java/App.java
+ create mode 100644 ToDoList/src/main/java/Task.java
+ create mode 100755 ToDoList/src/main/java/spark/template/velocity/VelocityTemplateEngine.java
+ create mode 100644 ToDoList/src/main/resources/public/app.css
+ create mode 100644 ToDoList/src/main/resources/public/skeleton.css
+ create mode 100644 ToDoList/src/main/resources/templates/index.vtl
+ create mode 100644 ToDoList/src/main/resources/templates/layout.vtl
+ create mode 100644 ToDoList/src/main/resources/templates/success.vtl
+ create mode 100644 ToDoList/src/test/java/AppTest.java
+ create mode 100644 ToDoList/src/test/java/ServerRule.java
+ create mode 100755 ToDoList/src/test/java/TaskTest.java
+ create mode 100644 dictionary/.gradle/2.11/taskArtifacts/cache.properties
+ create mode 100644 dictionary/.gradle/2.11/taskArtifacts/cache.properties.lock
+ create mode 100644 dictionary/.gradle/2.11/taskArtifacts/fileHashes.bin
+ create mode 100644 dictionary/.gradle/2.11/taskArtifacts/fileSnapshots.bin
+ create mode 100644 dictionary/.gradle/2.11/taskArtifacts/outputFileStates.bin
+ create mode 100644 dictionary/.gradle/2.11/taskArtifacts/taskArtifacts.bin
+ create mode 100755 dictionary/.gradle/2.9/taskArtifacts/cache.properties
+ create mode 100755 dictionary/.gradle/2.9/taskArtifacts/cache.properties.lock
+ create mode 100755 dictionary/.gradle/2.9/taskArtifacts/fileHashes.bin
+ create mode 100755 dictionary/.gradle/2.9/taskArtifacts/fileSnapshots.bin
+ create mode 100755 dictionary/.gradle/2.9/taskArtifacts/outputFileStates.bin
+ create mode 100755 dictionary/.gradle/2.9/taskArtifacts/taskArtifacts.bin
+ create mode 100755 dictionary/build.gradle
+ create mode 100644 dictionary/build/classes/main/App.class
+ create mode 100644 dictionary/build/classes/main/Definition.class
+ create mode 100755 dictionary/build/classes/main/LeapYear.class
+ create mode 100644 dictionary/build/classes/main/Word.class
+ create mode 100755 dictionary/build/classes/main/spark/template/velocity/VelocityTemplateEngine.class
+ create mode 100644 dictionary/build/classes/test/DefinitionTest.class
+ create mode 100755 dictionary/build/classes/test/LeapYearTest.class
+ create mode 100644 dictionary/build/classes/test/WordTest.class
+ create mode 100644 dictionary/build/reports/tests/classes/DefinitionTest.html
+ create mode 100755 dictionary/build/reports/tests/classes/LeapYearTest.html
+ create mode 100644 dictionary/build/reports/tests/classes/WordTest.html
+ create mode 100755 dictionary/build/reports/tests/css/base-style.css
+ create mode 100755 dictionary/build/reports/tests/css/style.css
+ create mode 100755 dictionary/build/reports/tests/index.html
+ create mode 100755 dictionary/build/reports/tests/js/report.js
+ create mode 100755 dictionary/build/reports/tests/packages/default-package.html
+ create mode 100755 dictionary/build/resources/main/public/app.css
+ create mode 100755 dictionary/build/resources/main/public/skeleton.css
+ create mode 100755 dictionary/build/resources/main/templates/detector.vtl
+ create mode 100755 dictionary/build/resources/main/templates/home.vtl
+ create mode 100755 dictionary/build/resources/main/templates/layout.vtl
+ create mode 100644 dictionary/build/test-results/TEST-DefinitionTest.xml
+ create mode 100755 dictionary/build/test-results/TEST-LeapYearTest.xml
+ create mode 100644 dictionary/build/test-results/TEST-WordTest.xml
+ create mode 100644 dictionary/build/test-results/binary/test/output.bin
+ create mode 100644 dictionary/build/test-results/binary/test/output.bin.idx
+ create mode 100644 dictionary/build/test-results/binary/test/results.bin
+ create mode 100755 dictionary/src/main/java/App.java
+ create mode 100644 dictionary/src/main/java/Definition.java
+ create mode 100644 dictionary/src/main/java/Word.java
+ create mode 100755 dictionary/src/main/java/spark/template/velocity/VelocityTemplateEngine.java
+ create mode 100755 dictionary/src/main/resources/public/app.css
+ create mode 100755 dictionary/src/main/resources/public/skeleton.css
+ create mode 100755 dictionary/src/main/resources/templates/home.vtl
+ create mode 100755 dictionary/src/main/resources/templates/layout.vtl
+ create mode 100755 dictionary/src/test/java/AppTest.java
+ create mode 100644 dictionary/src/test/java/DefinitionTest.java
+ create mode 100644 dictionary/src/test/java/WordTest.java
+➜  dictionary git:(master) ✗ git push dictionary master
+fatal: 'dictionary' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+➜  dictionary git:(master) ✗ git push dictionary master
+fatal: 'dictionary' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+➜  dictionary git:(master) ✗ gradle test                                                  
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava
+/Users/Safiya/Desktop/dictionary/src/test/java/DefinitionTest.java:17: error: cannot find symbol
+    assertEquals(expected, myDefinition.getDefinition());
+                                       ^
+  symbol:   method getDefinition()
+  location: variable myDefinition of type Definition
+1 error
+:compileTestJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 6.952 secs
+➜  dictionary git:(master) ✗ gradle test
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:compileTestJava
+:processTestResources UP-TO-DATE
+:testClasses
+:test
+
+BUILD SUCCESSFUL
+
+Total time: 7.974 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.11/userguide/gradle_daemon.html
+➜  dictionary git:(master) ✗ gradle test
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:compileTestJava
+:processTestResources UP-TO-DATE
+:testClasses
+:test
+
+BUILD SUCCESSFUL
+
+Total time: 8.258 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.11/userguide/gradle_daemon.html
+➜  dictionary git:(master) ✗ git add .
+➜  dictionary git:(master) ✗ git commit -m "Add getDefinition method"
+[master 1c5f617] Add getDefinition method
+ 17 files changed, 67 insertions(+), 32 deletions(-)
+ rewrite dictionary/build/classes/main/Definition.class (100%)
+ rewrite dictionary/build/classes/test/DefinitionTest.class (82%)
+ rewrite dictionary/build/test-results/binary/test/results.bin (100%)
+➜  dictionary git:(master) ✗ git commit -m "Add getDefinition method"
+On branch master
+Changes not staged for commit:
+	deleted:    ../ToDoList/.gradle/2.11/taskArtifacts/cache.properties
+	deleted:    ../ToDoList/.gradle/2.11/taskArtifacts/cache.properties.lock
+	deleted:    ../ToDoList/.gradle/2.11/taskArtifacts/fileHashes.bin
+	deleted:    ../ToDoList/.gradle/2.11/taskArtifacts/fileSnapshots.bin
+	deleted:    ../ToDoList/.gradle/2.11/taskArtifacts/outputFileStates.bin
+	deleted:    ../ToDoList/.gradle/2.11/taskArtifacts/taskArtifacts.bin
+	deleted:    ../ToDoList/.gradle/2.9/taskArtifacts/cache.properties
+	deleted:    ../ToDoList/.gradle/2.9/taskArtifacts/cache.properties.lock
+	deleted:    ../ToDoList/.gradle/2.9/taskArtifacts/fileHashes.bin
+	deleted:    ../ToDoList/.gradle/2.9/taskArtifacts/fileSnapshots.bin
+	deleted:    ../ToDoList/.gradle/2.9/taskArtifacts/outputFileStates.bin
+	deleted:    ../ToDoList/.gradle/2.9/taskArtifacts/taskArtifacts.bin
+	deleted:    ../ToDoList/build.gradle
+	deleted:    ../ToDoList/build/classes/main/App.class
+	deleted:    ../ToDoList/build/classes/main/LeapYear.class
+	deleted:    ../ToDoList/build/classes/main/Task.class
+	deleted:    ../ToDoList/build/classes/main/spark/template/velocity/VelocityTemplateEngine.class
+	deleted:    ../ToDoList/build/classes/test/AppTest.class
+	deleted:    ../ToDoList/build/classes/test/LeapYearTest.class
+	deleted:    ../ToDoList/build/classes/test/ServerRule.class
+	deleted:    ../ToDoList/build/classes/test/TaskTest.class
+	deleted:    ../ToDoList/build/reports/tests/classes/AppTest.html
+	deleted:    ../ToDoList/build/reports/tests/classes/LeapYearTest.html
+	deleted:    ../ToDoList/build/reports/tests/classes/TaskTest.html
+	deleted:    ../ToDoList/build/reports/tests/css/base-style.css
+	deleted:    ../ToDoList/build/reports/tests/css/style.css
+	deleted:    ../ToDoList/build/reports/tests/index.html
+	deleted:    ../ToDoList/build/reports/tests/js/report.js
+	deleted:    ../ToDoList/build/reports/tests/packages/default-package.html
+	deleted:    ../ToDoList/build/resources/main/public/app.css
+	deleted:    ../ToDoList/build/resources/main/public/skeleton.css
+	deleted:    ../ToDoList/build/resources/main/templates/detector.vtl
+	deleted:    ../ToDoList/build/resources/main/templates/index.vtl
+	deleted:    ../ToDoList/build/resources/main/templates/layout.vtl
+	deleted:    ../ToDoList/build/resources/main/templates/success.vtl
+	deleted:    ../ToDoList/build/test-results/TEST-AppTest.xml
+	deleted:    ../ToDoList/build/test-results/TEST-LeapYearTest.xml
+	deleted:    ../ToDoList/build/test-results/TEST-TaskTest.xml
+	deleted:    ../ToDoList/build/test-results/binary/test/output.bin
+	deleted:    ../ToDoList/build/test-results/binary/test/output.bin.idx
+	deleted:    ../ToDoList/build/test-results/binary/test/results.bin
+	deleted:    ../ToDoList/build/tmp/test/jar_extract_1632713368124047825_tmp
+	deleted:    ../ToDoList/build/tmp/test/jar_extract_2378525652698008134_tmp
+	deleted:    ../ToDoList/build/tmp/test/jar_extract_2921450964590011959_tmp
+	deleted:    ../ToDoList/build/tmp/test/jar_extract_2973935831176804467_tmp
+	deleted:    ../ToDoList/build/tmp/test/jar_extract_3228619523232975585_tmp
+	deleted:    ../ToDoList/build/tmp/test/jar_extract_436767387438106596_tmp
+	deleted:    ../ToDoList/build/tmp/test/jar_extract_4692990369354547193_tmp
+	deleted:    ../ToDoList/build/tmp/test/jar_extract_4979280249347554952_tmp
+	deleted:    ../ToDoList/build/tmp/test/jar_extract_5815853192284391109_tmp
+	deleted:    ../ToDoList/build/tmp/test/jar_extract_5922830118965704810_tmp
+	deleted:    ../ToDoList/build/tmp/test/jar_extract_6579085244301415379_tmp
+	deleted:    ../ToDoList/build/tmp/test/jar_extract_677072442161126502_tmp
+	deleted:    ../ToDoList/build/tmp/test/jar_extract_7179711127816432785_tmp
+	deleted:    ../ToDoList/build/tmp/test/jar_extract_7461925668669317827_tmp
+	deleted:    ../ToDoList/build/tmp/test/jar_extract_7654797177865591008_tmp
+	deleted:    ../ToDoList/build/tmp/test/jar_extract_8040156767477423744_tmp
+	modified:   ../ToDoList/src/main/java/App.java
+	modified:   ../ToDoList/src/main/java/Task.java
+	deleted:    ../ToDoList/src/main/java/spark/template/velocity/VelocityTemplateEngine.java
+	deleted:    ../ToDoList/src/main/resources/public/app.css
+	deleted:    ../ToDoList/src/main/resources/public/skeleton.css
+	deleted:    ../ToDoList/src/main/resources/templates/layout.vtl
+	deleted:    ../ToDoList/src/test/java/ServerRule.java
+	modified:   ../ToDoList/src/test/java/TaskTest.java
+	modified:   src/test/java/DefinitionTest.java
+
+Untracked files:
+	../.DS_Store
+	../.localized
+	../.sass-cache/
+	../Java-ToDoList 2/
+	../Java-ToDoList/
+	../epicodus-java-todo-list-day3/
+	../java-codereview4/
+	../java-template-master.zip
+
+no changes added to commit
+➜  dictionary git:(master) ✗ gradle test                             
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava
+/Users/Safiya/Desktop/dictionary/src/test/java/DefinitionTest.java:31: error: cannot find symbol
+   assertEquals(Definition.all().size(), testDefinition.getId());
+                                                       ^
+  symbol:   method getId()
+  location: variable testDefinition of type Definition
+1 error
+:compileTestJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 6.268 secs
+➜  dictionary git:(master) ✗ gradle test
+:compileJava
+/Users/Safiya/Desktop/dictionary/src/main/java/Definition.java:17: error: cannot find symbol
+    return mId;
+           ^
+  symbol:   variable mId
+  location: class Definition
+1 error
+:compileJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 6.781 secs
+➜  dictionary git:(master) ✗ gradle test
+:compileJava
+/Users/Safiya/Desktop/dictionary/src/main/java/Definition.java:17: error: cannot find symbol
+    return mId;
+           ^
+  symbol:   variable mId
+  location: class Definition
+1 error
+:compileJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 6.04 secs
+➜  dictionary git:(master) ✗ gradle test
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:compileTestJava
+:processTestResources UP-TO-DATE
+:testClasses
+:test
+
+BUILD SUCCESSFUL
+
+Total time: 7.636 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.11/userguide/gradle_daemon.html
+➜  dictionary git:(master) ✗ gradle test
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:compileTestJava
+:processTestResources UP-TO-DATE
+:testClasses
+:test
+
+BUILD SUCCESSFUL
+
+Total time: 7.594 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.11/userguide/gradle_daemon.html
+➜  dictionary git:(master) ✗ gradle test
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava
+/Users/Safiya/Desktop/dictionary/src/test/java/WordTest.java:32: error: cannot find symbol
+    word.addDefinition(definition);
+        ^
+  symbol:   method addDefinition(Definition)
+  location: variable word of type Word
+1 error
+:compileTestJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 6.297 secs
+➜  dictionary git:(master) ✗ gradle test
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava
+:processTestResources UP-TO-DATE
+:testClasses
+:test
+
+WordTest > newDefinition_addsNewDefinitions_true FAILED
+    java.lang.AssertionError at WordTest.java:32
+
+16 tests completed, 1 failed
+:test FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':test'.
+> There were failing tests. See the report at: file:///Users/Safiya/Desktop/dictionary/build/reports/tests/index.html
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 7.408 secs
+➜  dictionary git:(master) ✗ gradle test
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava
+/Users/Safiya/Desktop/dictionary/src/test/java/WordTest.java:32: error: cannot find symbol
+    testWord.addDefinition(definition);
+            ^
+  symbol:   method addDefinition(Definition)
+  location: variable testWord of type Word
+1 error
+:compileTestJava FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 6.507 secs
+➜  dictionary git:(master) ✗ gradle test
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava
+:processTestResources UP-TO-DATE
+:testClasses
+:test
+
+BUILD SUCCESSFUL
+
+Total time: 7.473 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.11/userguide/gradle_daemon.html
+➜  dictionary git:(master) ✗ git add .
+➜  dictionary git:(master) ✗ git commit -m "Add new definitions"
+[master b3da23c] Add new definitions
+ 19 files changed, 100 insertions(+), 47 deletions(-)
+ rewrite dictionary/build/classes/main/Definition.class (100%)
+ rewrite dictionary/build/classes/test/DefinitionTest.class (79%)
+ rewrite dictionary/build/classes/test/WordTest.class (85%)
+ rewrite dictionary/build/test-results/binary/test/results.bin (100%)
+➜  dictionary git:(master) ✗ gradle run
+:compileJava
+:processResources
+:classes
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @478ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] ERROR spark.webserver.JettySparkServer - ignite failed
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:326)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:244)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:384)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at spark.webserver.JettySparkServer.ignite(JettySparkServer.java:131)
+	at spark.SparkInstance.lambda$init$0(SparkInstance.java:341)
+	at java.lang.Thread.run(Thread.java:745)
+:run FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':run'.
+> Process 'command '/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/bin/java'' finished with non-zero exit value 100
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 7.794 secs
+➜  dictionary git:(master) ✗ gradle run
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @388ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] ERROR spark.webserver.JettySparkServer - ignite failed
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:326)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:244)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:384)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at spark.webserver.JettySparkServer.ignite(JettySparkServer.java:131)
+	at spark.SparkInstance.lambda$init$0(SparkInstance.java:341)
+	at java.lang.Thread.run(Thread.java:745)
+:run FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':run'.
+> Process 'command '/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/bin/java'' finished with non-zero exit value 100
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 5.642 secs
+➜  dictionary git:(master) ✗ gradle test
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:compileTestJava
+:processTestResources UP-TO-DATE
+:testClasses
+:test
+
+BUILD SUCCESSFUL
+
+Total time: 7.85 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.11/userguide/gradle_daemon.html
+➜  dictionary git:(master) ✗ gradle run
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @398ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] ERROR spark.webserver.JettySparkServer - ignite failed
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:326)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:244)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:384)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at spark.webserver.JettySparkServer.ignite(JettySparkServer.java:131)
+	at spark.SparkInstance.lambda$init$0(SparkInstance.java:341)
+	at java.lang.Thread.run(Thread.java:745)
+:run FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':run'.
+> Process 'command '/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/bin/java'' finished with non-zero exit value 100
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 6.783 secs
+➜  dictionary git:(master) ✗ gradle run
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @424ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] ERROR spark.webserver.JettySparkServer - ignite failed
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:326)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:244)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:384)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at spark.webserver.JettySparkServer.ignite(JettySparkServer.java:131)
+	at spark.SparkInstance.lambda$init$0(SparkInstance.java:341)
+	at java.lang.Thread.run(Thread.java:745)
+:run FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':run'.
+> Process 'command '/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/bin/java'' finished with non-zero exit value 100
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 10.696 secs
+➜  dictionary git:(master) ✗ gradle run
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @428ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] ERROR spark.webserver.JettySparkServer - ignite failed
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:326)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:244)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:384)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at spark.webserver.JettySparkServer.ignite(JettySparkServer.java:131)
+	at spark.SparkInstance.lambda$init$0(SparkInstance.java:341)
+	at java.lang.Thread.run(Thread.java:745)
+:run FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':run'.
+> Process 'command '/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/bin/java'' finished with non-zero exit value 100
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 6.185 secs
+➜  dictionary git:(master) ✗ gradle build
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:jar
+:startScripts
+:distTar
+:distZip
+:assemble
+:compileTestJava
+:processTestResources UP-TO-DATE
+:testClasses
+:test
+:check
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 8.531 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.11/userguide/gradle_daemon.html
+➜  dictionary git:(master) ✗ gradle run
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @385ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] ERROR spark.webserver.JettySparkServer - ignite failed
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:326)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:244)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:384)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at spark.webserver.JettySparkServer.ignite(JettySparkServer.java:131)
+	at spark.SparkInstance.lambda$init$0(SparkInstance.java:341)
+	at java.lang.Thread.run(Thread.java:745)
+:run FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':run'.
+> Process 'command '/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/bin/java'' finished with non-zero exit value 100
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 5.677 secs
+➜  dictionary git:(master) ✗ gradle run
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @322ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] ERROR spark.webserver.JettySparkServer - ignite failed
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:326)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:244)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:384)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at spark.webserver.JettySparkServer.ignite(JettySparkServer.java:131)
+	at spark.SparkInstance.lambda$init$0(SparkInstance.java:341)
+	at java.lang.Thread.run(Thread.java:745)
+:run FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':run'.
+> Process 'command '/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/bin/java'' finished with non-zero exit value 100
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 6.767 secs
+➜  dictionary git:(master) ✗ gradle run
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @410ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] ERROR spark.webserver.JettySparkServer - ignite failed
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:326)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:244)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:384)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at spark.webserver.JettySparkServer.ignite(JettySparkServer.java:131)
+	at spark.SparkInstance.lambda$init$0(SparkInstance.java:341)
+	at java.lang.Thread.run(Thread.java:745)
+:run FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':run'.
+> Process 'command '/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/bin/java'' finished with non-zero exit value 100
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 6.846 secs
+➜  dictionary git:(master) ✗ gradle run
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @332ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] ERROR spark.webserver.JettySparkServer - ignite failed
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:326)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:244)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:384)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at spark.webserver.JettySparkServer.ignite(JettySparkServer.java:131)
+	at spark.SparkInstance.lambda$init$0(SparkInstance.java:341)
+	at java.lang.Thread.run(Thread.java:745)
+:run FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':run'.
+> Process 'command '/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/bin/java'' finished with non-zero exit value 100
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 6.004 secs
+➜  dictionary git:(master) ✗ gradle run
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:run
+
+BUILD SUCCESSFUL
+
+Total time: 6.229 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.11/userguide/gradle_daemon.html
+➜  dictionary git:(master) ✗ gradle run
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @337ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] ERROR spark.webserver.JettySparkServer - ignite failed
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:326)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:244)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:384)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at spark.webserver.JettySparkServer.ignite(JettySparkServer.java:131)
+	at spark.SparkInstance.lambda$init$0(SparkInstance.java:341)
+	at java.lang.Thread.run(Thread.java:745)
+:run FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':run'.
+> Process 'command '/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/bin/java'' finished with non-zero exit value 100
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 6.871 secs
+➜  dictionary git:(master) ✗ gradle run
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @306ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] ERROR spark.webserver.JettySparkServer - ignite failed
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:326)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:244)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:384)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at spark.webserver.JettySparkServer.ignite(JettySparkServer.java:131)
+	at spark.SparkInstance.lambda$init$0(SparkInstance.java:341)
+	at java.lang.Thread.run(Thread.java:745)
+:run FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':run'.
+> Process 'command '/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/bin/java'' finished with non-zero exit value 100
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 6.57 secs
+➜  dictionary git:(master) ✗ pwd
+/Users/Safiya/Desktop/dictionary
+➜  dictionary git:(master) ✗ gradle build
+:compileJava
+:processResources
+:classes
+:jar
+:startScripts
+:distTar
+:distZip
+:assemble
+:compileTestJava
+:processTestResources UP-TO-DATE
+:testClasses
+:test
+:check
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 9.102 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.11/userguide/gradle_daemon.html
+➜  dictionary git:(master) ✗ gradle run
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @390ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] ERROR spark.webserver.JettySparkServer - ignite failed
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:326)
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:244)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:384)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at spark.webserver.JettySparkServer.ignite(JettySparkServer.java:131)
+	at spark.SparkInstance.lambda$init$0(SparkInstance.java:341)
+	at java.lang.Thread.run(Thread.java:745)
+:run FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':run'.
+> Process 'command '/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/bin/java'' finished with non-zero exit value 100
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 5.466 secs
+➜  dictionary git:(master) ✗ 
+➜  dictionary git:(master) ✗ gradle run
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @386ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@4907dcd6{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+[Thread-0] INFO org.eclipse.jetty.server.Server - Started @596ms
+Apr 29, 2016 12:57:41 PM org.apache.velocity.runtime.log.JdkLogChute log
+SEVERE: ResourceManager : unable to find resource 'templates/index.vtl' in any resource loader.
+Apr 29, 2016 12:57:41 PM org.apache.velocity.runtime.log.JdkLogChute log
+SEVERE: #parse(): cannot find template 'templates/index.vtl', called at templates/layout.vtl[line 11, column 5]
+[qtp202748412-15] ERROR spark.webserver.MatcherFilter - 
+org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'templates/index.vtl'
+	at org.apache.velocity.runtime.resource.ResourceManagerImpl.loadResource(ResourceManagerImpl.java:474)
+	at org.apache.velocity.runtime.resource.ResourceManagerImpl.getResource(ResourceManagerImpl.java:352)
+	at org.apache.velocity.runtime.RuntimeInstance.getTemplate(RuntimeInstance.java:1533)
+	at org.apache.velocity.runtime.directive.Parse.render(Parse.java:197)
+	at org.apache.velocity.runtime.parser.node.ASTDirective.render(ASTDirective.java:207)
+	at org.apache.velocity.runtime.parser.node.SimpleNode.render(SimpleNode.java:342)
+	at org.apache.velocity.Template.merge(Template.java:356)
+	at org.apache.velocity.Template.merge(Template.java:260)
+	at spark.template.velocity.VelocityTemplateEngine.render(VelocityTemplateEngine.java:72)
+	at spark.TemplateViewRouteImpl$1.render(TemplateViewRouteImpl.java:61)
+	at spark.TemplateViewRouteImpl$1.render(TemplateViewRouteImpl.java:58)
+	at spark.TemplateViewRouteImpl.render(TemplateViewRouteImpl.java:85)
+	at spark.webserver.MatcherFilter.doFilter(MatcherFilter.java:164)
+	at spark.webserver.JettyHandler.doHandle(JettyHandler.java:61)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:119)
+	at org.eclipse.jetty.server.Server.handle(Server.java:517)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:302)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:242)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:245)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:75)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+> Building 75% > :run^C
+➜  dictionary git:(master) ✗ 
+➜  dictionary git:(master) ✗ gradle run
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @337ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@112d2e47{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+[Thread-0] INFO org.eclipse.jetty.server.Server - Started @558ms
+> Building 75% > :runc
+^C
+➜  dictionary git:(master) ✗ 
+➜  dictionary git:(master) ✗ gradle run
+:compileJava UP-TO-DATE
+:processResources
+:classes
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @292ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@1dbc79e3{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+[Thread-0] INFO org.eclipse.jetty.server.Server - Started @493ms
+> Building 75% > :run^C
+➜  dictionary git:(master) ✗ 
+➜  dictionary git:(master) ✗ gradle run
+:compileJava UP-TO-DATE
+:processResources
+:classes
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @394ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@4907dcd6{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+[Thread-0] INFO org.eclipse.jetty.server.Server - Started @650ms
+> Building 75% > :run^C
+➜  dictionary git:(master) ✗ 
+➜  dictionary git:(master) ✗ gradle run
+:compileJava UP-TO-DATE
+:processResources
+:classes
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @480ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@70a70c49{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+[Thread-0] INFO org.eclipse.jetty.server.Server - Started @748ms
+> Building 75% > :run^C
+➜  dictionary git:(master) ✗ 
+➜  dictionary git:(master) ✗ gradle run
+:compileJava UP-TO-DATE
+:processResources
+:classes
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @375ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@5b650cea{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+[Thread-0] INFO org.eclipse.jetty.server.Server - Started @620ms
+> Building 75% > :run^C
+➜  dictionary git:(master) ✗ 
+➜  dictionary git:(master) ✗ gradle run
+:compileJava UP-TO-DATE
+:processResources
+:classes
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @324ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@70a70c49{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+[Thread-0] INFO org.eclipse.jetty.server.Server - Started @596ms
+> Building 75% > :run^C
+^[[A%                                                                                                                                                                    ➜  dictionary git:(master) ✗ 
+➜  dictionary git:(master) ✗ gradle run
+:compileJava UP-TO-DATE
+:processResources
+:classes
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @624ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@4907dcd6{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+[Thread-0] INFO org.eclipse.jetty.server.Server - Started @943ms
+> Building 75% > :run^C
+➜  dictionary git:(master) ✗ 
+➜  dictionary git:(master) ✗ gradle run
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @394ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@6fe707ed{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+[Thread-0] INFO org.eclipse.jetty.server.Server - Started @618ms
+> Building 75% > :run^C
+➜  dictionary git:(master) ✗ 
+➜  dictionary git:(master) ✗ gradle run
+:compileJava
+:processResources
+:classes
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @514ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@42c4e702{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+[Thread-0] INFO org.eclipse.jetty.server.Server - Started @785ms
+> Building 75% > :run^C
+➜  dictionary git:(master) ✗ 
+➜  dictionary git:(master) ✗ gradle run
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @383ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@537fbdb{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+[Thread-0] INFO org.eclipse.jetty.server.Server - Started @614ms
+> Building 75% > :run^C
+➜  dictionary git:(master) ✗ 
+➜  dictionary git:(master) ✗ gradle run
+:compileJava UP-TO-DATE
+:processResources
+:classes
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @385ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@30118b8e{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+[Thread-0] INFO org.eclipse.jetty.server.Server - Started @720ms
+> Building 75% > :run^C
+➜  dictionary git:(master) ✗ 
+➜  dictionary git:(master) ✗ gradle run
+:compileJava UP-TO-DATE
+:processResources
+:classes
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @382ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@35c7756f{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+[Thread-0] INFO org.eclipse.jetty.server.Server - Started @666ms
+> Building 75% > :run^C
+➜  dictionary git:(master) ✗ 
+➜  dictionary git:(master) ✗ gradle run
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @369ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@2391ac0d{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+[Thread-0] INFO org.eclipse.jetty.server.Server - Started @577ms
+> Building 75% > :run^C
+➜  dictionary git:(master) ✗ 
+➜  dictionary git:(master) ✗ gradle run
+:compileJava UP-TO-DATE
+:processResources
+:classes
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @520ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@1e8e61{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+[Thread-0] INFO org.eclipse.jetty.server.Server - Started @777ms
+> Building 75% > :run^C
+➜  dictionary git:(master) ✗ 
+➜  dictionary git:(master) ✗ gradle run
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @357ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@35c7756f{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+[Thread-0] INFO org.eclipse.jetty.server.Server - Started @589ms
+> Building 75% > :run^C
+➜  dictionary git:(master) ✗ 
+➜  dictionary git:(master) ✗ gradle run
+:compileJava
+:processResources
+:classes
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @357ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@6458ec42{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+[Thread-0] INFO org.eclipse.jetty.server.Server - Started @587ms
+> Building 75% > :run^C
+➜  dictionary git:(master) ✗ 
+➜  dictionary git:(master) ✗ gradle run
+:compileJava
+:processResources
+:classes
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @347ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@65f4d388{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+[Thread-0] INFO org.eclipse.jetty.server.Server - Started @539ms
+> Building 75% > :runç^C
+➜  dictionary git:(master) ✗ 
+➜  dictionary git:(master) ✗ gradle run
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @286ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@65f4d388{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+[Thread-0] INFO org.eclipse.jetty.server.Server - Started @555ms
+> Building 75% > :run^C
+➜  dictionary git:(master) ✗ 
+➜  dictionary git:(master) ✗ gradle run
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @395ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@65f4d388{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+[Thread-0] INFO org.eclipse.jetty.server.Server - Started @626ms
+> Building 75% > :run^C
+➜  dictionary git:(master) ✗ 
+➜  dictionary git:(master) ✗ gradle run
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @311ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@65f4d388{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+[Thread-0] INFO org.eclipse.jetty.server.Server - Started @550ms
+> Building 75% > :run^C
+➜  dictionary git:(master) ✗ 
+➜  dictionary git:(master) ✗ gradle run
+:compileJava
+:processResources
+:classes
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @424ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@1538209b{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+[Thread-0] INFO org.eclipse.jetty.server.Server - Started @653ms
+[qtp1147640635-18] ERROR spark.webserver.MatcherFilter - 
+java.lang.NumberFormatException: For input string: "app.css"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at App.lambda$main$5(App.java:49)
+	at spark.TemplateViewRouteImpl$1.handle(TemplateViewRouteImpl.java:66)
+	at spark.webserver.MatcherFilter.doFilter(MatcherFilter.java:162)
+	at spark.webserver.JettyHandler.doHandle(JettyHandler.java:61)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:119)
+	at org.eclipse.jetty.server.Server.handle(Server.java:517)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:302)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:242)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:245)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:75)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+[qtp1147640635-17] ERROR spark.webserver.MatcherFilter - 
+java.lang.NumberFormatException: For input string: "skeleton.css"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at App.lambda$main$5(App.java:49)
+	at spark.TemplateViewRouteImpl$1.handle(TemplateViewRouteImpl.java:66)
+	at spark.webserver.MatcherFilter.doFilter(MatcherFilter.java:162)
+	at spark.webserver.JettyHandler.doHandle(JettyHandler.java:61)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:119)
+	at org.eclipse.jetty.server.Server.handle(Server.java:517)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:302)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:242)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:245)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:75)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+[qtp1147640635-13] ERROR spark.webserver.MatcherFilter - 
+java.lang.NumberFormatException: For input string: "app.css"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at App.lambda$main$5(App.java:49)
+	at spark.TemplateViewRouteImpl$1.handle(TemplateViewRouteImpl.java:66)
+	at spark.webserver.MatcherFilter.doFilter(MatcherFilter.java:162)
+	at spark.webserver.JettyHandler.doHandle(JettyHandler.java:61)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:119)
+	at org.eclipse.jetty.server.Server.handle(Server.java:517)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:302)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:242)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:245)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:75)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+[qtp1147640635-19] ERROR spark.webserver.MatcherFilter - 
+java.lang.NumberFormatException: For input string: "skeleton.css"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at App.lambda$main$5(App.java:49)
+	at spark.TemplateViewRouteImpl$1.handle(TemplateViewRouteImpl.java:66)
+	at spark.webserver.MatcherFilter.doFilter(MatcherFilter.java:162)
+	at spark.webserver.JettyHandler.doHandle(JettyHandler.java:61)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:119)
+	at org.eclipse.jetty.server.Server.handle(Server.java:517)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:302)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:242)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:245)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:75)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+[qtp1147640635-14] ERROR spark.webserver.MatcherFilter - 
+java.lang.NumberFormatException: For input string: "app.css"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at App.lambda$main$5(App.java:49)
+	at spark.TemplateViewRouteImpl$1.handle(TemplateViewRouteImpl.java:66)
+	at spark.webserver.MatcherFilter.doFilter(MatcherFilter.java:162)
+	at spark.webserver.JettyHandler.doHandle(JettyHandler.java:61)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:119)
+	at org.eclipse.jetty.server.Server.handle(Server.java:517)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:302)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:242)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:245)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:75)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+[qtp1147640635-17] ERROR spark.webserver.MatcherFilter - 
+java.lang.NumberFormatException: For input string: "skeleton.css"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at App.lambda$main$5(App.java:49)
+	at spark.TemplateViewRouteImpl$1.handle(TemplateViewRouteImpl.java:66)
+	at spark.webserver.MatcherFilter.doFilter(MatcherFilter.java:162)
+	at spark.webserver.JettyHandler.doHandle(JettyHandler.java:61)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:119)
+	at org.eclipse.jetty.server.Server.handle(Server.java:517)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:302)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:242)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:245)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:75)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+> Building 75% > :rungit^C%                                                                                                                                              ➜  dictionary git:(master) ✗ git add .
+git%                                                                                                                                                                     ➜  dictionary git:(master) ✗ git commit -m "Add user logic"
+[master 625a90f] Add user logic
+ 46 files changed, 552 insertions(+), 178 deletions(-)
+ rename dictionary/.gradle/{2.9 => 2.11}/taskArtifacts/fileHashes.bin (64%)
+ mode change 100755 => 100644
+ rewrite dictionary/.gradle/2.11/taskArtifacts/fileSnapshots.bin (70%)
+ rename dictionary/.gradle/{2.9/taskArtifacts/outputFileStates.bin => 2.11/taskArtifacts/taskArtifacts.bin} (65%)
+ mode change 100755 => 100644
+ delete mode 100755 dictionary/.gradle/2.9/taskArtifacts/cache.properties
+ delete mode 100755 dictionary/.gradle/2.9/taskArtifacts/cache.properties.lock
+ delete mode 100755 dictionary/.gradle/2.9/taskArtifacts/fileSnapshots.bin
+ delete mode 100755 dictionary/.gradle/2.9/taskArtifacts/taskArtifacts.bin
+ rewrite dictionary/build/classes/main/App.class (100%)
+ delete mode 100755 dictionary/build/classes/main/LeapYear.class
+ mode change 100755 => 100644 dictionary/build/classes/main/spark/template/velocity/VelocityTemplateEngine.class
+ delete mode 100755 dictionary/build/classes/test/LeapYearTest.class
+ create mode 100644 dictionary/build/distributions/dictionary-1.0.tar
+ create mode 100644 dictionary/build/distributions/dictionary-1.0.zip
+ create mode 100644 dictionary/build/libs/dictionary-1.0.jar
+ delete mode 100755 dictionary/build/reports/tests/classes/LeapYearTest.html
+ mode change 100755 => 100644 dictionary/build/reports/tests/css/base-style.css
+ mode change 100755 => 100644 dictionary/build/reports/tests/css/style.css
+ mode change 100755 => 100644 dictionary/build/reports/tests/index.html
+ mode change 100755 => 100644 dictionary/build/reports/tests/js/report.js
+ mode change 100755 => 100644 dictionary/build/reports/tests/packages/default-package.html
+ delete mode 100755 dictionary/build/resources/main/templates/detector.vtl
+ create mode 100644 dictionary/build/resources/main/templates/form.vtl
+ create mode 100644 dictionary/build/resources/main/templates/success.vtl
+ create mode 100644 dictionary/build/resources/main/templates/word.vtl
+ create mode 100644 dictionary/build/resources/main/templates/words.vtl
+ create mode 100755 dictionary/build/scripts/dictionary
+ create mode 100644 dictionary/build/scripts/dictionary.bat
+ delete mode 100755 dictionary/build/test-results/TEST-LeapYearTest.xml
+ rewrite dictionary/build/test-results/binary/test/results.bin (100%)
+ create mode 100644 dictionary/build/tmp/jar/MANIFEST.MF
+ create mode 100644 dictionary/src/main/resources/templates/form.vtl
+ create mode 100644 dictionary/src/main/resources/templates/success.vtl
+ create mode 100644 dictionary/src/main/resources/templates/word.vtl
+ create mode 100644 dictionary/src/main/resources/templates/words.vtl
+ delete mode 100755 dictionary/src/test/java/AppTest.java
+➜  dictionary git:(master) ✗ gradle run                    
+:compileJava UP-TO-DATE
+:processResources
+:classes
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @446ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@44e97928{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+[Thread-0] INFO org.eclipse.jetty.server.Server - Started @714ms
+> Building 75% > :run^C
+➜  dictionary git:(master) ✗ 
+➜  dictionary git:(master) ✗ gradle run
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:run
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @391ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:4567
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.2.v20150730
+[Thread-0] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@c73eb66{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+[Thread-0] INFO org.eclipse.jetty.server.Server - Started @626ms
+[qtp1379893945-12] ERROR spark.webserver.MatcherFilter - 
+java.lang.NumberFormatException: For input string: "app.css"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at App.lambda$main$5(App.java:49)
+	at spark.TemplateViewRouteImpl$1.handle(TemplateViewRouteImpl.java:66)
+	at spark.webserver.MatcherFilter.doFilter(MatcherFilter.java:162)
+	at spark.webserver.JettyHandler.doHandle(JettyHandler.java:61)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:119)
+	at org.eclipse.jetty.server.Server.handle(Server.java:517)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:302)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:242)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:245)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:75)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+[qtp1379893945-17] ERROR spark.webserver.MatcherFilter - 
+java.lang.NumberFormatException: For input string: "skeleton.css"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at App.lambda$main$5(App.java:49)
+	at spark.TemplateViewRouteImpl$1.handle(TemplateViewRouteImpl.java:66)
+	at spark.webserver.MatcherFilter.doFilter(MatcherFilter.java:162)
+	at spark.webserver.JettyHandler.doHandle(JettyHandler.java:61)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:119)
+	at org.eclipse.jetty.server.Server.handle(Server.java:517)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:302)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:242)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:245)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:75)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+[qtp1379893945-16] ERROR spark.webserver.MatcherFilter - 
+java.lang.NumberFormatException: For input string: "app.css"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at App.lambda$main$5(App.java:49)
+	at spark.TemplateViewRouteImpl$1.handle(TemplateViewRouteImpl.java:66)
+	at spark.webserver.MatcherFilter.doFilter(MatcherFilter.java:162)
+	at spark.webserver.JettyHandler.doHandle(JettyHandler.java:61)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:119)
+	at org.eclipse.jetty.server.Server.handle(Server.java:517)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:302)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:242)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:245)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:75)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+[qtp1379893945-19] ERROR spark.webserver.MatcherFilter - 
+java.lang.NumberFormatException: For input string: "skeleton.css"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at App.lambda$main$5(App.java:49)
+	at spark.TemplateViewRouteImpl$1.handle(TemplateViewRouteImpl.java:66)
+	at spark.webserver.MatcherFilter.doFilter(MatcherFilter.java:162)
+	at spark.webserver.JettyHandler.doHandle(JettyHandler.java:61)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:119)
+	at org.eclipse.jetty.server.Server.handle(Server.java:517)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:302)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:242)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:245)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:75)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+[qtp1379893945-19] ERROR spark.webserver.MatcherFilter - 
+java.lang.NumberFormatException: For input string: "app.css"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at App.lambda$main$5(App.java:49)
+	at spark.TemplateViewRouteImpl$1.handle(TemplateViewRouteImpl.java:66)
+	at spark.webserver.MatcherFilter.doFilter(MatcherFilter.java:162)
+	at spark.webserver.JettyHandler.doHandle(JettyHandler.java:61)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:119)
+	at org.eclipse.jetty.server.Server.handle(Server.java:517)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:302)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:242)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:245)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:75)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+[qtp1379893945-13] ERROR spark.webserver.MatcherFilter - 
+java.lang.NumberFormatException: For input string: "skeleton.css"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at App.lambda$main$5(App.java:49)
+	at spark.TemplateViewRouteImpl$1.handle(TemplateViewRouteImpl.java:66)
+	at spark.webserver.MatcherFilter.doFilter(MatcherFilter.java:162)
+	at spark.webserver.JettyHandler.doHandle(JettyHandler.java:61)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:119)
+	at org.eclipse.jetty.server.Server.handle(Server.java:517)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:302)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:242)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:245)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:75)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:213)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:147)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+> Building 75% > :run^C
+➜  dictionary git:(master) ✗ 
+➜  dictionary git:(master) ✗ git remote add dictionary https://github.com/5adiyah/Java-Dictionary.git
+➜  dictionary git:(master) ✗ git push dictionary
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream dictionary master
+
+➜  dictionary git:(master) ✗ git push dictionary master
+Username for 'https://github.com': 5adiyah
+Password for 'https://5adiyah@github.com': 
+To https://github.com/5adiyah/Java-Dictionary.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/5adiyah/Java-Dictionary.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+➜  dictionary git:(master) ✗ git push dictionary master
+Username for 'https://github.com': 5adiyah
+Password for 'https://5adiyah@github.com': 
+To https://github.com/5adiyah/Java-Dictionary.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/5adiyah/Java-Dictionary.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+➜  dictionary git:(master) ✗ git remote add dictionary https://github.com/5adiyah/Java-Dictionary.git
+fatal: remote dictionary already exists.
+➜  dictionary git:(master) ✗ git remote add sa https://github.com/5adiyah/Java-Dictionary.git
+➜  dictionary git:(master) ✗ git push sa master
+Username for 'https://github.com': 5adiyah
+Password for 'https://5adiyah@github.com': 
+To https://github.com/5adiyah/Java-Dictionary.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/5adiyah/Java-Dictionary.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+➜  dictionary git:(master) ✗ 
