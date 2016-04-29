@@ -12,9 +12,11 @@
     </p>
   </div>
   <p class="center">
-    <button type="button" name="button"><a href="/words">My Dictionary</a></button>
-    <button type="button" name="button"><a href="/form">New Word</a></button>
-    <button type="button" name="button"><a href="/definitions">New Definition</a></button>
+    <form action="/words" method="post">
+    <label for="word">Word:</label>
+    <input id="word" name="word" type="text">
+    <button type="submit" class="btn">Add Word</button>
+    </form>
   </p>
   </div>
 

@@ -10,13 +10,19 @@
     <p>
       &nbsp; <br> &nbsp;
     </p>
-  </div>
-  <p class="center">
-    <button type="button" name="button"><a href="/words">My Dictionary</a></button>
+
+    <p class="strong">All Words</p>
+
+    <ul>
+      #foreach ($word in $words)
+        <li><a href="/words/$word.getId()">$word.getWord()</a></li>
+      #end
+    </ul>
+
     <button type="button" name="button"><a href="/form">New Word</a></button>
-    <button type="button" name="button"><a href="/definitions">New Definition</a></button>
-  </p>
+
   </div>
 
   </div>
+</div>
 </div>

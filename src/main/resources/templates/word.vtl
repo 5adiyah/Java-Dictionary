@@ -10,13 +10,20 @@
     <p>
       &nbsp; <br> &nbsp;
     </p>
-  </div>
-  <p class="center">
+
+    <p class="strong">All Words</p>
+
+    <ul>
+      #foreach($w in $word.getDefinition())
+       <li>$definition.getDefinition()</li>
+      #end
+    </ul>
+
     <button type="button" name="button"><a href="/words">My Dictionary</a></button>
-    <button type="button" name="button"><a href="/form">New Word</a></button>
     <button type="button" name="button"><a href="/definitions">New Definition</a></button>
-  </p>
+
   </div>
 
   </div>
+</div>
 </div>
